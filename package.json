@@ -1,0 +1,29 @@
+{
+  "name": "click-on-the-egg",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "UNLICENCE",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ext=ts,cjs",
+    "prepare": "husky install",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "commitlint": "^17.5.1",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "gh-pages": "^5.0.0",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
