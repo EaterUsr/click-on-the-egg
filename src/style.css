@@ -29,7 +29,7 @@ body {
   z-index: 1;
 }
 
-@media screen, (--prefers-scheme-color: dark) {
+@media (prefers-color-scheme: dark) {
   body {
     background: #333;
   }
