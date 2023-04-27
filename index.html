@@ -13,10 +13,31 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="Try to click on the egg as faster as possibe">
-    <script type="module" crossorigin src="./assets/index-ea7794a5.js"></script>
-    <link rel="stylesheet" href="./assets/index-e80196b7.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background: #d9d9d9;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #333;
+        }
+        * {
+          visibility: hidden;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-1eed36c0.js"></script>
+    <link rel="stylesheet" href="./assets/index-7ecc9d3b.css">
   </head>
   <body>
+    <span id="time"></span>
+    <span id="info">click on the egg to start</span>
+    <span id="result-count"></span>
+    <span id="comment"></span>
     <img src="./favicon-32x32.png" width="50" id="egg" srcset="favicon-16x16.png 16w, favicon-32x32.png 32w" alt="easter egg">
     <a href="https://dryicons.com/free-icons/easter-egg" target="_blank" class="credit">Icon by Dryicons</a>
   </body>
